@@ -1,6 +1,6 @@
 - type: job
   id: Passenger
-  name: job-name-passenger
+  name: Villager
   description: job-description-passenger
   playTimeTracker: JobPassenger
   startingGear: PassengerGear
@@ -12,10 +12,10 @@
 - type: startingGear
   id: PassengerGear
   equipment:
-    jumpsuit: ClothingUniformJumpsuitColorGrey
+    jumpsuit: ClothingPeasantClothes
     back: ClothingBackpackFilled
     shoes: ClothingShoesColorBlack
-    id: PassengerPDA
+    id: PassengerIDCard
     ears: ClothingHeadsetGrey
   innerClothingSkirt: ClothingUniformJumpskirtColorGrey
   satchel: ClothingBackpackSatchelFilled

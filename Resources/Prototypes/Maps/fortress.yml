@@ -1,0 +1,22 @@
+- type: gameMap
+  id: Fortress
+  mapName: 'Fortress'
+  mapPath: /Maps/fortress.yml
+  minPlayers: 1
+  stations:
+    Fortress:
+      stationProto: StandardNanotrasenStation
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: '{0} Fortress {1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationEmergencyShuttle
+          emergencyShuttlePath: /Maps/Shuttles/emergency_courser.yml
+        - type: StationJobs
+          overflowJobs:
+            - Passenger
+          availableJobs:
+            Captain: [ 1, 1 ]
+            Passenger: [ -1, -1 ]

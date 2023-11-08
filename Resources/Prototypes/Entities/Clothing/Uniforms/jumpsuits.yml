@@ -550,6 +550,16 @@
     sprite: Clothing/Uniforms/Jumpsuit/warden.rsi
 
 # COLORS
+- type: entity
+  parent: ClothingUniformBase
+  id: ClothingPeasantClothes
+  description: A cheap cotton outfit
+  name: Peasant Clothes
+  components:
+  - type: Sprite
+    sprite: Clothing/Uniforms/Jumpsuit/peasant.rsi
+  - type: Clothing
+    sprite: Clothing/Uniforms/Jumpsuit/peasant.rsi
 
 - type: entity
   parent: ClothingUniformBase
