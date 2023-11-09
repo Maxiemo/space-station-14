@@ -1,0 +1,8 @@
+- type: parallax
+  id: FortressParallax
+  layers:
+    - texture:
+        !type:ImageParallaxTextureSource
+        path: "/Textures/Parallaxes/FortressParallaxWater.png"
+      slowness: 1
+      scale: "1, 1"

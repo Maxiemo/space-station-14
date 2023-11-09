@@ -5,7 +5,7 @@
   minPlayers: 1
   stations:
     Fortress:
-      stationProto: StandardNanotrasenStation
+      stationProto: StandardFortressStation
       components:
         - type: StationNameSetup
           mapNameTemplate: '{0} Fortress {1}'
